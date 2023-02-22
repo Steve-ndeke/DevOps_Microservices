@@ -51,3 +51,12 @@ source .devops/bin/activate
 - Setup and Configure Kubernetes locally
 - Create Flask app in Container
 - Run via kubectl
+
+###file changes
+.1.app.py Contains the code to handle the prediction. An extra log was added.
+2.Dockerfile Holds the instructions on how to create docker image.
+3.run_docker.sh Runs the application using docker.
+4.upload_docker.sh Script that builds, tags and uploads the docker image to docker hub.
+5.run_kubernetes.sh Runs deployed docker image using kubernetes.
+6.output_txt_files/docker_out.txt Output logs from the docker execution.
+7.output_txt_files/kubernetes_out.txt Output logs from the kubernetes execution.
