@@ -53,7 +53,7 @@ source .devops/bin/activate
 - Run via kubectl
 
 ###file changes
-.1.app.py Contains the code to handle the prediction. An extra log was added.
+1.app.py Contains the code to handle the prediction. An extra log was added.
 2.Dockerfile Holds the instructions on how to create docker image.
 3.run_docker.sh Runs the application using docker.
 4.upload_docker.sh Script that builds, tags and uploads the docker image to docker hub.
